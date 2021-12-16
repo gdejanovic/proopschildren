@@ -11,13 +11,14 @@ export default class App extends React.Component
   render(){
     return( 
 
-      <div>
+      <>
       <Korisnici ime=' Davor' godine=' 28' ime2=" Jozo" godine2=' 31' ime3=" Marija" godine3=" 25"/>
       <Skola naziv="Prvomajska" adresa=" Avenija Marina Držića"/>
       <Children children="Rade Končar" />
-      </div>
+      </>
    )
   }
 }
 
-//Malo sam dodao :)
+// Malo sam dodao :)
+// Usput naučio i fragmente
